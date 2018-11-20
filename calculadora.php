@@ -1,6 +1,6 @@
 <?php
 /**
- *  Plugin Name: Calculator
+ * Plugin Name: Calculator
  * Description: Basic Calculator
  * Version: 1.0
  * Author: Beatriz Martins e João Sampaio
