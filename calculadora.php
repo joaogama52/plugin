@@ -7,9 +7,9 @@
  * Author URI: www.google.com
  */
 
-function calculadora( $atts ) {
+function cal( $atts ) {
     
     return '<iframe src="'.plugins_url().'/calculadora/index.php" frameborder-"0" width="400px" height="500px"> </iframe>';
 }
 
-add_shortcode('calculadora', 'calculadora');
+add_shortcode('calculadora', 'cal');
