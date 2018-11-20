@@ -5,25 +5,26 @@
 
 .container{
     position: relative;
-    margin: 70px auto; /*o valor para cima e automatico para o resto*/ 
+    margin: 70px auto; 
     width: 55%;
     height: auto;
     padding: 30px;
     background: #111111;
     border: 10% solid white;
-    box-shadow: 4px 4px 4px black; 
+    border-radius: 5px;
+    
 }
 .Resultado{
     position: relative;
-    width: 95%;
+    width: 96%;
     height: auto;
     padding: 6px;
-    background-color:#111111;
+    background-color: #cccccc;
 }
 
 .buttons{
-    margin-top: 30px;
-    width: 92%;
+    margin-top: 20px;
+    width: 96%;
     height: auto;
     padding: 10px;
     background: #111111;
@@ -31,43 +32,39 @@
 }
 .campo{
     width: 100%;
-    height: 90px;
-    border: none;
-    opacity: 0.5;
-    background-color: #aaaaaa;    color: #aaaaaa;
+    height: 87px;
+    border:none;
+    background-color:  #cccccc;    color: #aaaaaa;
     font-size: 230%;
     text-align: right;
-    border-radius: 10px;
     color: black;
 }   
 
 .btn{
-    margin-top: 1px;
-    width: 18%;
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 20%;
     height: 10%;
  /*   padding: 3%;*/
-    background-color: #aaaaaa;
+    background-color:  #cccccc;
     color: white;
     font-size: 100%;
     border-radius: 10px;
-    
-    /*border: 5px solid #1c86ee;*/
+    border: 2px solid;
 }
 .btn:hover{
     cursor: pointer;
     background-color:#aaaaaa; 
 }
-/*.overlay{
-    display: none;
-    z-index:0;
-    cursor: pointer;
-}*/
+
 
 .btn-igual{
-    width: 43%;
-    height: 8%;
+    width: 48%;
+    height: 7%;
     position:absolute;
     border-radius: 10px;
     background-color: #FF851B;
+    margin-top: 10px;
+    margin-left:10px;
 }
 

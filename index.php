@@ -19,7 +19,8 @@
     </header>
     
     <section class="buttons">
-        <input type="button" value="0" name="btn" class="btn">
+                <input type="button" value="C" name="c" class="btn" style="background-color:#ff80b3;">
+    
         <input type="button" value="1" name="btn" class="btn">
         <input type="button" value="2" name="btn" class="btn">
         <input type="button" value="3" name="btn" class="btn">
@@ -29,14 +30,14 @@
         <input type="button" value="7" name="btn" class="btn">
         <input type="button" value="8" name="btn" class="btn">
         <input type="button" value="9" name="btn" class="btn">
+        <input type="button" value="0" name="btn" class="btn">
         <input type="button" value="00" name="btn" class="btn">
-        <input type="button" value="+" name="soma" class="btn">
-        <input type="button" value="-" name="subtracao" class="btn">
-        <input type="button" value="x" name="multiplicacao" class="btn">
-        <input type="button" value="÷" name="divisao" class="btn">
-        <input type="button" value="C" name="c" class="btn">
-        <input type="button" value="CE" name="ce" class="btn">
-        <input type="button" value="=" name="igual" class="btn-igual">
+        <input type="button" value="-" name="subtracao" class="btn" style="background-color:#4db8ff;">
+        <input type="button" value="x" name="multiplicacao" class="btn" style="background-color:#4db8ff;">
+        <input type="button" value="÷" name="divisao" class="btn" style="background-color:#4db8ff;">
+                <input type="button" value="+" name="soma" class="btn" style="background-color:#4db8ff;">
+        <input type="button" value="CE" name="ce" class="btn"  style="background-color:#ff80b3;" >
+        <input type="button" value="=" name="igual" class="btn-igual" style="background-color:#ff0000;">
         
     </section>
 </div>
